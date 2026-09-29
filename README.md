@@ -11,4 +11,6 @@ To make life easier for DevSecOps professionals, sysadmins, and security practit
 By removing the friction and cognitive load from running security audits, AutoSCAP helps practitioners focus on what actually matters: remediating vulnerabilities and keeping systems secure.
 
 **NOTE: OpenSCAP needs to be downloaded before using AutoSCAP**
-** Command to get OpenSCAP: sudo dnf install openscap-scanner scap-security-guide
+***Command to get OpenSCAP: sudo dnf install openscap-scanner scap-security-guide***
+
+curl -0 https://github.com/awilli30/AutoSCAP/blob/main/autoscap.sh
