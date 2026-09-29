@@ -13,4 +13,4 @@ By removing the friction and cognitive load from running security audits, AutoSC
 **NOTE: OpenSCAP needs to be downloaded before using AutoSCAP**
 ***Command to get OpenSCAP: sudo dnf install openscap-scanner scap-security-guide***
 
-curl -0 https://github.com/awilli30/AutoSCAP/blob/main/autoscap.sh
+curl -0 https://raw.githubusercontent.com/awilli30/AutoSCAP/refs/heads/main/autoscap.sh
