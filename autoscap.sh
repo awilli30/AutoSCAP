@@ -9,7 +9,7 @@ SSG_FILE="/usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml"
 [[ -f "$SSG_FILE" ]] || { echo "Error: Data stream missing at $SSG_FILE" >&2; exit 1; }
 
 # 2. Benchmark Selection
-echo "=== RHEL 9 OpenSCAP Scanner ==="
+echo "=== AutoSCAP Scanner ==="
 echo "1) DISA STIG  2) HIPAA  3) CIS (L2)  4) PCI-DSS  5) Custom"
 read -rp "Select choice [1-5]: " BENCHMARK_CHOICE
 
